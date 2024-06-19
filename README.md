@@ -131,6 +131,8 @@ model.fit(x_train, y_train, epochs=5)
 - Backward Pass (Backpropagation)
 - Metrics Calculation
 - Epoch Progress
+Epoch
+<img src="https://github.com/ab0rahman/HandWritten-Digits-Recog/blob/main/images/Screenshot%202024-06-20%20014302.png?raw=true" width="200" height="auto">
 
 ## Save the model
 The save method serializes the model architecture, weights, and configuration into a single HDF5 file.

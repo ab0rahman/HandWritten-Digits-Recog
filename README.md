@@ -1,5 +1,5 @@
 
-# Handwritten Digit Recognition
+# Handwritten Digit Recognition  &nbsp;[![](https://img.shields.io/badge/python-3.12.4-blue.svg)](https://www.python.org/downloads/) [![platform](https://img.shields.io/badge/platform-windows-green.svg)](https://github.com/ab0rahman/HandWritten-Digits-Recog) 
 
 # Working:
 The code is designed to train a neural network to recognize handwritten digits using the MNIST dataset and then use the trained model to predict digits from new images in a specified directory. The process includes loading the dataset, building and training a model, saving and loading the model, preprocessing new images, and making predictions.

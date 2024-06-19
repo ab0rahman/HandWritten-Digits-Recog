@@ -132,7 +132,7 @@ model.fit(x_train, y_train, epochs=5)
 - Metrics Calculation
 - Epoch Progress
 Epoch
-<img src="https://github.com/ab0rahman/HandWritten-Digits-Recog/blob/main/images/Screenshot%202024-06-20%20014302.png?raw=true" width="200" height="auto">
+<img src="https://github.com/ab0rahman/HandWritten-Digits-Recog/blob/main/images/Screenshot%202024-06-20%20014302.png?raw=true" width="500" height="auto">
 
 ## Save the model
 The save method serializes the model architecture, weights, and configuration into a single HDF5 file.
@@ -230,7 +230,10 @@ while os.path.isfile(f"digits/digit{image_number}.jpg"):
     process_and_predict_image(f"digits/digit{image_number}.jpg")
     image_number += 1
 ```
-
+<p float="left">
+  <img src="https://github.com/ab0rahman/HandWritten-Digits-Recog/blob/main/images/Screenshot%202024-06-20%20014444.png?raw=true" width="400" />
+  <img src="https://github.com/ab0rahman/HandWritten-Digits-Recog/blob/main/images/Screenshot%202024-06-20%20014621.png?raw=true" width="400" /> 
+</p>
 
 # Collaborators
   Abdur Rahman | [GitHub](https://github.com/ab0rahman) | [Email](mailto:letsmail.him@gmail.com) | 

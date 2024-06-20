@@ -5,14 +5,13 @@
 The code is designed to train a neural network to recognize handwritten digits using the MNIST dataset and then use the trained model to predict digits from new images in a specified directory. The process includes loading the dataset, building and training a model, saving and loading the model, preprocessing new images, and making predictions.
 
 ## Installation
-
-Start by importing the required libraries.
+To run this project, you will need to add the following.
 
 `OpenCV`
 `matplotlib`
 `tensorflow`
 
-To run this project, you will need to add the following.
+Start by importing the required libraries.
 
 ```bash
 import cv2
@@ -24,9 +23,9 @@ import tensorflow as tf
 ```
 **OpenCV:** cv2 is a module provided by OpenCV (Open Source Computer Vision Library), a highly optimized library with a focus on real-time applications and computer vision.
 
-**matplotlib:** Matplotlib is a library for creating interactive visualizations in Python. It is widely used in data science, machine learning, and scientific research to visualize data, create plots, and generate graphs.
+**Matplotlib:** Matplotlib is a library for creating interactive visualizations in Python. It is widely used in data science, machine learning, and scientific research to visualize data, create plots, and generate graphs.
 
-**tensorflow:** TensorFlow is an library developed by the for numerical computation and machine learning. It provides a flexible platform for building and deploying machine learning models, especially deep learning models. 
+**Tensorflow:** TensorFlow is an library developed by the for numerical computation and machine learning. It provides a flexible platform for building and deploying machine learning models, especially deep learning models. 
     
 
 ## Load and preprocess the MNIST dataset
